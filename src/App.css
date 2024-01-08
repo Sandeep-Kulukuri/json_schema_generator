@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: black;
+  font-size: large;
+  color: #fff;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-item {
+  margin: 10px;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+/* .schema-output {
+  height: 500px;
+  width: 400px;
+  border: 1px solid white;
+} */
+
+.schema-output {
+  height: 70vh; /* 50% of the viewport height */
+  width: 80vw; /* 40% of the viewport width */
+  border: 1px solid white;
+}
+
+h2,
+h4 {
+  color: orangered;
+  padding: 4px;
+}
+
+h4 {
+  margin-left: 5px;
+  text-align: left;
+}
